@@ -2,6 +2,45 @@ body{
     margin: 0;
     font-family: "platypi",serif;
 }
+.text-primary{
+    color: tomato;
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: tomato;
+    border: 0;
+    font-weight: 500;
+    color: white;
+    font-size: 30px;
+    padding: 15px 35px;
+}
+/* nav related styles */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav> ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color:palevioletred ;
+}
+/*header related styles*/
+.header{
+  
+}
 h1{
     font-size: 50px;
 }
@@ -15,7 +54,7 @@ p{
     color: rgb(239, 162, 20);
 }
 .half-width{
-    width: 40%;
+    width: 42%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
@@ -26,9 +65,30 @@ p{
 .top-banner{
     background-image: url("image/top banner.png");
     background-repeat: no-repeat;
+
+}
+main{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+main section{
+    margin-top: 130px;
 }
 section{
-    height: 500px;
+    height: 490px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 3opx;
+    box-shadow: opx 6px 50px 0 rgba(0 0 0 0.06);
+    border-radius: 5px;
+    background: #FFF;
+
 }
 .link-button{
     text-decoration: none;
